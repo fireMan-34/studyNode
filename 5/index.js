@@ -11,7 +11,7 @@ const puppeteer = require('puppeteer');
     const browser = await puppeteer.launch({
         // 无头浏览器模式
         headless: 'new',
-        // 自定义使用数据文件夹，无的话，应该是走末日文件夹共用
+        // 自定义使用数据文件夹，无的话，应该是走默认文件夹共用
         // 这些文件夹放着我们书签、插件、临时文件……
         // userDataDir: '',
         // 启动参数
