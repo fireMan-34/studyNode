@@ -1,0 +1,1 @@
+chrome.exe https://www.baidu.com/
