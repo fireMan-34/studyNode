@@ -1,0 +1,14 @@
+[req]
+default_bits =  2048
+prompt = noop
+default_md = sha256
+distinguished_name = dn
+
+[dn]
+C = cn
+ST = RandomState
+L = RandomCity
+O = RandomOrganization
+OU = RandomOrganizationUnit
+emailAddress = javascript.abc@gmail.com
+CN = localhost

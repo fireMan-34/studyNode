@@ -41,6 +41,13 @@ foreach ($TASK in $TASKS) {
   git --no-pager log --author="maxufeng" --since=24.hours --no-merges --pretty=format:"%B" | Add-Content -Encoding utf8 -Path $OUT_FILE;
 }
 
+"
+---------------------------------
+写入时间
+" | Add-Content -Encoding utf8 -Path $OUT_FILE
+
+Get-Date | Add-Content -Encoding utf8 -Path $OUT_FILE
+
 Write-Output "
   ---------------------------------
   礼乐崩坏，心系羽族，合乎舟礼。666

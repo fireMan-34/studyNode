@@ -1,0 +1,10 @@
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+subjectAltName = @alt_names
+
+[alt_names]
+#这里可以是多个域名，如DNS.1、DNS.2、DNS.3 ...... 这行是备注可以删掉
+DNS.1 = localhost
+DNS.2 = 127.0.0.1
+DNS.3 = www.wegocare.cn
